@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+//taskları ürettiğimiz component
 function TaskCreate({ onCreate, task, taskFormUpdate, onUpdate }) {
   //TaskCreate({onCreate}) onCreate bizim propsumuz ve bu fonksiyon bunu döndürüyor
   const [title, setTitle] = useState(task ? task.title : ""); //task varsa task.title ı yaz yoksa boş döndür

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import TaskCreate from "./TaskCreate";
 
+//taskların gözterildiği component
 function TaskShow({ task, onDelete,onUpdate }) {
   const [showEdit, setShowEdit] = useState(false); //showEdit i false ile başlatıyoruz
   const handleDeleteClick = () => {
