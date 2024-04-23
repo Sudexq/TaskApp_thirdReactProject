@@ -1,0 +1,99 @@
+
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* TaskCreate */
+.task-create{
+    width:450px;
+}
+.task-update{
+    width: 100%;
+}
+.task-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.task-label{
+    margin: 10px 0px;
+}
+.task-input{
+    padding: 10px;
+    border: 1px solid rgb(255, 0, 153);
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.144);
+}
+
+.task-button{
+    margin: 10px 0px;
+    background-color: rgb(255, 0, 153);
+    border: none;
+    box-shadow: 0 0 5px 2px rgb(203, 0, 122);
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+.update-button{
+    background-color: rgb(179, 0, 107);
+    box-shadow: 0 0 5px 2px rgb(155, 0, 93);
+}
+
+/* TaskCreate */
+
+/* TaskList */
+.task-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* TaskList */
+
+/* TaskShow */
+.task-show{
+    margin: 20px;
+    width: 350px;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    border: 2px solid rgb(255, 0, 153);
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px 0 rgb(255, 0, 153);
+
+}
+.TaskShow-title{
+    margin-bottom: 5px;
+}
+.taskShow-button{
+    display: flex;
+    align-items: center;
+}
+.taskShow-buttonDelete{
+    border:none;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 0 red;
+    color: white;
+    width: 80px;
+    background-color: red;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.taskShow-buttonUpdate{
+    border:none;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 0 rgb(28, 51, 226);
+    color: white;
+    width: 80px;
+    background-color: rgb(28, 51, 226);
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+/* TaskShow */
